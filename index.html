@@ -42,9 +42,11 @@
 								<li class="hidden"> <a href="#page-top" class="page-scroll"></a> </li>
 								<li class="active"> <a class="page-scroll" href="#main-slider">Home</a> </li>
 								<li> <a href="#about" class="page-scroll">About</a> </li>
-								<li> <a href="#MySQL" class="page-scroll">MySQL</a> </li>
-								<li> <a href="#PHP" class="page-scroll">PHP</a> </li>
-								<li> <a href="#our-team" class="page-scroll">Laravel</a> </li>
+								<li> <a href="#MySQL" class="page-scroll" style="text-transform:none;">MySQL</a> </li>
+								<li> <a href="#PHP" class="page-scroll" style="text-transform:none;">php</a> </li>
+								<li> <a href="#Laravel" class="page-scroll">Laravel</a> </li>
+								<li> <a href="#Vue" class="page-scroll" style="text-transform:none;">Vue.js</a> </li>
+								<li> <a href="#blog" class="page-scroll">此頁面的特色</a> </li>
 								<li> <a href="#contact" class="page-scroll">Contact</a> </li>
 							</ul>
 						</div>
@@ -63,13 +65,13 @@
 				<!-- SLIDE  -->
 				<li data-transition="fade" data-slotamount="6" data-delay="5000">
 					<!-- MAIN IMAGE -->
-					<img src="images/slide/1/1.jpg" alt="slidebg1" data-bgposition="center top">
+					<img src="images/slide/1/2.jpg" alt="slidebg1" data-bgposition="center top">
 
 				</li>
 				<!-- SLIDE  -->
 				<li data-transition="fade" data-slotamount="6" data-delay="5000">
 					<!-- MAIN IMAGE -->
-					<img src="images/slide/1/2.jpg" alt="slidebg1" data-bgposition="center top">
+					<img src="images/slide/1/1.jpg" alt="slidebg1" data-bgposition="center top">
 				</li>
 				<!-- SLIDE  -->
 				<li data-transition="fade" data-slotamount="7" data-delay="5000">
@@ -241,13 +243,13 @@
 					<div class="dv-middle"></div>
 					<div class="dv-bottom"></div>
 				</div>
-				<h2 class="head-title">PHP-Hypertext Preprocessor</h2>
+				<h2 class="head-title" style="text-transform:lowercase;">php-Hypertext Preprocessor</h2>
 			</div>
 			<div class="col-md-4 col-sm-4">
 				<div class="canvas-box  magin-bottom text-center">
 					<span class="text-center"><i class="icon icon-basic-smartphone  color-style1"></i></span>
 					<h4 class="color-style1">基本介紹</h4>
-					<p>PHP支援許多功能，可以輸出HTML的元素，可以使用通信技術做出搜尋列功能，亦可以撰寫按鈕功能使頁面可以與資料庫互動</p>
+					<p>php支援許多功能，可以輸出HTML的元素，可以使用通信技術做出搜尋列功能，亦可以撰寫按鈕功能使頁面可以與資料庫互動，但是任務必須按照順序執行(易於阻塞)</p>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-4">
@@ -276,7 +278,7 @@
 			<div class="col-md-4 col-sm-4">
 				<div class="canvas-box magin-bottom text-center">
 					<span class="text-center"><i class="icon icon-music-play-button color-style2"></i></span>
-					<h4 class="color-style2">資料庫互動</h4>
+					<h4 class="color-style2">資料庫互動fetch</h4>
 					<p>php支援各種mysql的語法，以及fetch等資料傳遞的方式
 						，可以將create, delete, insert into等等的方法宣告為一個變數，在將其變數放進function作為執行的動作
 					</p>
@@ -291,7 +293,7 @@
 			</div>
 			<div class="col-md-4 col-sm-4">
 				<div class="canvas-box magin-bottom text-center">
-					<span class="text-center"><i class="iicon icon-software-horizontal-align-center color-style2"></i></span>
+					<span class="text-center"><i class="icon icon-software-horizontal-align-center color-style2"></i></span>
 					<h4 class="color-style2">Function以及ECHO</h4>
 					<p>經常性透過function傳入參數，驅動loops，然後return或者是echo特定資料
 						，比如透過資料庫互動fetch所抓取到的迴圈搭配foreach，藉此將欄位輸出到頁面上</p>
@@ -302,7 +304,7 @@
 </section>
 <!--Services-->
 <!-- Work Portfolio -->
-<section id="Portfolio" class="padding" data-wow-duration="500ms" data-wow-delay="900ms">
+<section id="Laravel" class="padding" data-wow-duration="500ms" data-wow-delay="900ms">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
@@ -335,9 +337,10 @@
 								<div class="item-container">
 									<div class="overlay text-center">
 										<div class="overlay-inner">
-											<h4 class="base">Terminal</h4>
+											<h4 class="base">基本介紹以及Terminal</h4>
 											<div class="line"></div>
-											<p>composer, artisan, npm</p>
+											<p>laravel串聯了Vue.js並形成了MVC架構，經常使用composer, artisan, npm三種類型的終端機指令執行
+												，並且可以利用vue.js來解決同步執行的阻塞問題</p>
 											<a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a> <a class="fancybox portfolio-btn" data-fancybox-group="gallery" href="images/portfolio1.jpg"><i class="icon icon-basic-picture-multiple"></i></a>
 										</div>
 									</div>
@@ -397,7 +400,7 @@
 										<div class="overlay-inner">
 											<h4 class="base">View</h4>
 											<div class="line"></div>
-											<p>所有的頁面html元素以及Vue.js的功能撰寫</p>
+											<p>所有的頁面html元素以及作為component的Vue.js功能撰寫</p>
 											<a href="project_details.html" class="portfolio-btn"><i class="icon icon-basic-link"></i></a> <a class="fancybox portfolio-btn" data-fancybox-group="gallery" href="images/portfolio5.jpg"><i class="icon icon-basic-picture-multiple"></i></a>
 										</div>
 									</div>
@@ -430,25 +433,25 @@
 </section>
 <!-- Work Portfolio -->
 <!-- Pricing Tables -->
-<section id="pricing-table" class="padding">
+<section id="Vue" class="padding">
 	<div class="container">
 		<div class="row text-center">
 			<div class="col-md-12  wow fadeIn animated">
-				<p class="title">Checkout our features</p>
+				<p class="title">MVVM</p>
 				<div class="divider">
 					<div class="dv-top"></div>
 					<div class="dv-middle"></div>
 					<div class="dv-bottom"></div>
 				</div>
-				<h2 class="head-title">Pricing Tables</h2>
+				<h2 class="head-title">Vue.js</h2>
 			</div>
 			<div class="pricing">
 				<div class="pricing-switcher">
 					<p class="fieldset">
 						<input type="radio" name="duration-1" value="monthly" id="monthly-1" checked>
-						<label for="monthly-1">Monthly</label>
+						<label for="monthly-1">template</label>
 						<input type="radio" name="duration-1" value="yearly" id="yearly-1">
-						<label for="yearly-1">Yearly</label>
+						<label for="yearly-1">script</label>
 						<span class="switch"></span>
 					</p>
 				</div>
@@ -460,76 +463,50 @@
 									<div class="thumbnail animated pulse infinite">
 										<div class="fa fa-diamond"></div>
 									</div>
-									<h2>Basic</h2>
-									<div class="price"> <span class="currency">$</span> <span class="value">30</span> <span class="duration">mo</span> </div>
+									<h2 style="text-transform:lowercase;">  v-on</h2>
 								</header>
 								<div class="pricing-body">
 									<ul class="pricing-features">
 										<li>
 											<div class="fa fa-check"></div>
-											Complete Access To All Themes
+											與按鈕搭配，監聽事件的觸發來形成效果
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Perpetual Theme Updates
+											與屬性作搭配，設定觸發時機等等
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Premium Technical Support
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Complete Access To All Plugins
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Layered Photoshop Files
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											No Yearly Fees
+											與修飾符搭配，可設定觸發對象或次數等等
 										</li>
 									</ul>
 								</div>
-								<footer class="pricing-footer"> <a class="select btn btn-black hvr-sweep-to-right" href="#">Sign Up</a> </footer>
+								<footer class="pricing-footer"> <a class="select btn btn-black hvr-sweep-to-right" href="#">Vue.js</a> </footer>
 							</li>
 							<li data-type="yearly" class="is-hidden">
 								<header class="pricing-header">
 									<div class="thumbnail animated pulse infinite">
 										<div class="fa fa-diamond"></div>
 									</div>
-									<h2>Basic</h2>
-									<div class="price"> <span class="currency">$</span> <span class="value">320</span> <span class="duration">yr</span> </div>
+									<h2 style="text-transform:lowercase;">常見用法</h2>
 								</header>
 								<div class="pricing-body">
 									<ul class="pricing-features">
 										<li>
 											<div class="fa fa-check"></div>
-											Complete Access To All Themes
+											Data函式存放可被template呼叫的變數
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Perpetual Theme Updates
+											使用methods設定生命週期間執行的函式
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Premium Technical Support
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Complete Access To All Plugins
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Layered Photoshop Files
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											No Yearly Fees
+											使用props陣列接收父元件傳入的資料
 										</li>
 									</ul>
 								</div>
-								<footer class="pricing-footer"> <a class="select" href="#">Sign Up</a> </footer>
+								<footer class="pricing-footer"> <a class="select btn btn-black hvr-sweep-to-right" href="#">Vue.js</a> </footer>
 							</li>
 						</ul>
 					</li>
@@ -540,76 +517,50 @@
 									<div class="thumbnail animated pulse infinite">
 										<div class="fa fa-newspaper-o"></div>
 									</div>
-									<h2>Exclusive</h2>
-									<div class="price"> <span class="currency">$</span> <span class="value">60</span> <span class="duration">mo</span> </div>
+									<h2 style="text-transform:lowercase;">v-model</h2>
 								</header>
 								<div class="pricing-body">
 									<ul class="pricing-features">
 										<li>
 											<div class="fa fa-check"></div>
-											Complete Access To All Themes
+											可與data內的資料綁定
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Perpetual Theme Updates
+											可與input, checkbox, 下拉式選單標籤搭配
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Premium Technical Support
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Complete Access To All Plugins
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Layered Photoshop Files
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											No Yearly Fees
+											可與修飾符.lazy .number .trim搭配
 										</li>
 									</ul>
 								</div>
-								<footer class="pricing-footer"> <a class="select btn btn-white hvr-sweep-to-right" href="#">Sign Up</a> </footer>
+								<footer class="pricing-footer"> <a class="select btn btn-white hvr-sweep-to-right" href="#">Vue.js</a> </footer>
 							</li>
 							<li data-type="yearly" class="is-hidden">
 								<header class="pricing-header">
 									<div class="thumbnail animated pulse infinite">
 										<div class="fa fa-newspaper-o"></div>
 									</div>
-									<h2>Exclusive</h2>
-									<div class="price"> <span class="currency">$</span> <span class="value">630</span> <span class="duration">yr</span> </div>
+									<h2 style="text-transform:lowercase;">methods</h2>
 								</header>
 								<div class="pricing-body">
 									<ul class="pricing-features">
 										<li>
 											<div class="fa fa-check"></div>
-											Complete Access To All Themes
+											設定axios獲取特定路徑的資料
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Perpetual Theme Updates
+											設定emit/on達成元件之間的傳接收資料
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Premium Technical Support
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Complete Access To All Plugins
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Layered Photoshop Files
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											No Yearly Fees
+											使用async await達成非同步處理的動作
 										</li>
 									</ul>
 								</div>
-								<footer class="pricing-footer"> <a class="select" href="#">Sign Up</a> </footer>
+								<footer class="pricing-footer"> <a class="select btn btn-black hvr-sweep-to-right" href="#">Vue.js</a> </footer>
 							</li>
 						</ul>
 					</li>
@@ -620,76 +571,52 @@
 									<div class="thumbnail animated pulse infinite">
 										<div class="fa fa-support"></div>
 									</div>
-									<h2>Pro</h2>
-									<div class="price"> <span class="currency">$</span> <span class="value">90</span> <span class="duration">mo</span> </div>
+									<h2 style="text-transform:lowercase;">v-for</h2>
+									
 								</header>
 								<div class="pricing-body">
 									<ul class="pricing-features">
 										<li>
 											<div class="fa fa-check"></div>
-											Complete Access To All Themes
+											搭配 v-model或陣列可形成foreach迴圈
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Perpetual Theme Updates
+											搭配 :key屬性值可形成頁面元素的排序
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Premium Technical Support
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Complete Access To All Plugins
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Layered Photoshop Files
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											No Yearly Fees
+											搭配 v-if的設定條件可行成頁面元素的篩選
 										</li>
 									</ul>
 								</div>
-								<footer class="pricing-footer"> <a class="select btn btn-black hvr-sweep-to-right" href="#">Sign Up</a> </footer>
+								<footer class="pricing-footer"> <a class="select btn btn-black hvr-sweep-to-right" href="#">Vue.js</a> </footer>
 							</li>
 							<li data-type="yearly" class="is-hidden">
 								<header class="pricing-header">
 									<div class="thumbnail animated pulse infinite">
 										<div class="fa fa-support"></div>
 									</div>
-									<h2>Pro</h2>
-									<div class="price"> <span class="currency">$</span> <span class="value">950</span> <span class="duration">yr</span> </div>
+									<h2 style="text-transform:lowercase;">生命週期</h2>
+									
 								</header>
 								<div class="pricing-body">
 									<ul class="pricing-features">
 										<li>
 											<div class="fa fa-check"></div>
-											Complete Access To All Themes
+											Vue可透過函式設定作用的期間
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Perpetual Theme Updates
+											created, mounted, updated, destroyed
 										</li>
 										<li>
 											<div class="fa fa-check"></div>
-											Premium Technical Support
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Complete Access To All Plugins
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											Layered Photoshop Files
-										</li>
-										<li>
-											<div class="fa fa-close"></div>
-											No Yearly Fees
+											在其中輸入要執行的函式或方法
 										</li>
 									</ul>
 								</div>
-								<footer class="pricing-footer"> <a class="select" href="#">Sign Up</a> </footer>
+								<footer class="pricing-footer"> <a class="select btn btn-black hvr-sweep-to-right" href="#">Vue.js</a> </footer>
 							</li>
 						</ul>
 					</li>
@@ -704,64 +631,46 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<p class="title">Our Leatest News</p>
+				<p class="title">Bootstrap</p>
 				<div class="divider">
 					<div class="dv-top"></div>
 					<div class="dv-middle"></div>
 					<div class="dv-bottom"></div>
 				</div>
-				<h2 class="head-title">Latest News</h2>
+				<h2 class="head-title">引用工具</h2>
 			</div>
 		</div>
 		<div class="row">
 			<div id="blog-slider" class="owl-carousel">
 				<div class="item">
-					<div class="image"> <a href="blog_detail.html"><img src="images/blog-1.jpg" alt="blog Image"></a> </div>
-					<h5>11 November 2016</h5>
-					<h4>iCon is Portfolio Design</h4>
-					<p>by <a href="#." class="name">John </a> - <a href="#." class="comment">5 Comments</a></p>
-					<p>icon Etiam tincidunt.</p>
-					<a href="blog.html">read more</a>
+					<div class="image"> <a href="blog_detail.html"><img src="images/fontawesome.jpg" alt="blog Image"></a> </div>
+					<h5>FontAwesome</h5>
+					<h4>iCon fa</h4>
 				</div>
 				<div class="item">
-					<div class="image"> <a href="blog_detail.html"><img src="images/blog-2.jpg" alt="blog Image"></a> </div>
-					<h5>11 November 2016</h5>
-					<h4>iCon is Portfolio Design</h4>
-					<p>by <a href="blog_detail.html" class="name">John </a> - <a href="#." class="comment">5 Comments</a></p>
-					<p>icon Etiam tincidunt.</p>
-					<a href="blog.html">read more</a>
+					<div class="image"> <a href="blog_detail.html"><img src="images/owlcarousel.jpg" alt="blog Image"></a> </div>
+					<h5>Owl Carousel</h5>
+					<h4>為此區塊所使用</h4>
 				</div>
 				<div class="item">
-					<div class="image"> <a href="blog_detail.html"><img src="images/blog-3.jpg" alt="blog Image"></a> </div>
-					<h5>11 November 2016</h5>
-					<h4>iCon is Portfolio Design</h4>
-					<p>by <a href="#." class="name">John </a> - <a href="#." class="comment">5 Comments</a></p>
-					<p>icon Etiam tincidunt.</p>
-					<a href="blog_detail.html">read more</a>
+					<div class="image"> <a href="blog_detail.html"><img src="images/wow-1.gif" alt="blog Image"></a> </div>
+					<h5>wow.js</h5>
+					<h4>圖片的縮放</h4>
 				</div>
 				<div class="item">
-					<div class="image"><a href="blog_detail.html"><img src="images/blog-4.jpg" alt="blog Image"></a></div>
-					<h5>11 November 2016</h5>
-					<h4>iCon is Portfolio Design</h4>
-					<p>by <a href="#." class="name">John </a> - <a href="#." class="comment">5 Comments</a></p>
-					<p>icon Etiam tincidunt.</p>
-					<a href="blog.html">read more</a>
+					<div class="image"><a href="blog_detail.html"><img src="images/jquery.jpg" alt="blog Image"></a></div>
+					<h5>jQuery</h5>
+					<h4>驅動所有樣式套件</h4>
 				</div>
 				<div class="item">
-					<div class="image"> <a href="blog_detail.html"><img src="images/blog-5.jpg" alt="blog Image"></a> </div>
-					<h5>11 November 2016</h5>
-					<h4>iCon is Portfolio Design</h4>
-					<p>by <a href="#." class="name">John </a> - <a href="#." class="comment">5 Comments</a></p>
-					<p>icon Etiam tincidunt.</p>
-					<a href="blog.html">read more</a>
+					<div class="image"> <a href="blog_detail.html"><img src="images/bootstrap.png" alt="blog Image"></a> </div>
+					<h5>Bootstrap</h5>
+					<h4>carousel-fade, grid, RWD, btn</h4>
 				</div>
 				<div class="item">
-					<div class="image"><a href="blog_detail.html"><img src="images/blog-6.jpg" alt="blog Image"></a></div>
-					<h5>11 November 2016</h5>
-					<h4>iCon is Portfolio Design</h4>
-					<p>by <a href="#." class="name">John </a> - <a href="#." class="comment">5 Comments</a></p>
-					<p>icon Etiam tincidunt.</p>
-					<a href="blog.html">read more</a>
+					<div class="image"><a href="blog_detail.html"><img src="images/css.jpg" alt="blog Image"></a></div>
+					<h5>css</h5>
+					<h4>filter, switcher, clearfix</h4>
 				</div>
 			</div>
 		</div>
@@ -808,7 +717,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="pull-right footer-share"><a class="fl" target="_blank" href="#"><i class="fa fa-facebook"></i></a><a target="_blank" href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
-				<p class="pull-left copyright">Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">因為使用了網頁模板來做修改，所以決定留下footer</a></p>
+				<p class="pull-left copyright">Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">內容自行填寫，但因為使用了網頁模板來做修改，所以留下footer以示來源</a></p>
 			</div>
 		</div>
 	</div>
@@ -823,8 +732,8 @@
 		<li><a href="#about" class="page-scroll"></a></li>
 		<li><a href="#MySQL" class="page-scroll"></a></li>
 		<li><a class="page-scroll" href="#PHP"></a></li>
-		<li><a class="page-scroll" href="#Portfolio"></a></li>
-		<li><a class="page-scroll" href="#pricing-table"></a></li>
+		<li><a class="page-scroll" href="#Laravel"></a></li>
+		<li><a class="page-scroll" href="#Vue"></a></li>
 		<li><a class="page-scroll" href="#blog"></a></li>
 		<li><a class="page-scroll" href="#contact"></a></li>
 	</ul>
